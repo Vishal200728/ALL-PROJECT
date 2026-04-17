@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+#btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#btn:active {
+    transform: scale(0.98);
+}
+
+
+.box {
+    height: 100px;
+    text-align: center;
+    color: #333;
+}
+
+.box p {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #333;
+}
+

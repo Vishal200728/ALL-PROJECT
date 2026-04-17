@@ -1,0 +1,168 @@
+
+/* 🌍 Global Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+}
+
+/* 🧱 Container */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* 🏷️ Title */
+h1 {
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+/* 🔍 Search Box */
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  margin-left: 8px;
+  border: none;
+  background: #ff5722;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #e64a19;
+}
+
+/* 📂 Categories */
+.category-list {
+  margin: 20px 0;
+}
+
+.category-list button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  background: #ff9800;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-list button:hover {
+  background: #f57c00;
+}
+
+/* 🍽️ Meal Grid */
+.meal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 🍔 Meal Card */
+.meal-card {
+  width: 220px;
+  margin: 12px;
+  padding: 12px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.meal-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.meal-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.meal-card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* 📄 Details Page */
+.details {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.details h1 {
+  color: #ff5722;
+}
+
+.details img {
+  width: 300px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+/* 🥗 Ingredients */
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details li {
+  background: #fff3e0;
+  margin: 5px auto;
+  padding: 8px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+/* 📖 Instructions */
+.details p {
+  text-align: justify;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+/* 🎥 Video */
+iframe {
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .meal-card {
+    width: 90%;
+  }
+
+  .details img {
+    width: 100%;
+  }
+
+  .details li {
+    width: 90%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+}

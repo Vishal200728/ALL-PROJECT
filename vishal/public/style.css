@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(136, 243, 247);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+  font-style: italic;
+  text-align: center;
+  font-size: 60px;
+  color: #333;
+}

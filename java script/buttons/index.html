@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <button onclick="createPdf()">PDF file</button>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.js" ></script>
+<script>
+        function createPdf(){
+            var doc = new jsPDF()
+            doc.text("add text hello world",10,10)
+            doc.save("output.pdf")
+        }
+    </script>
+</html>

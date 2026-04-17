@@ -1,0 +1,89 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+/* Choices container */
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Individual choice boxes */
+.choice {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.choice:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Choice images */
+.choice img {
+    width: 80px;
+    height: 80px;
+    pointer-events: none; /* So clicking image triggers div click */
+}
+
+/* Scoreboard */
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.score {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.score p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Message container */
+.msg-container {
+    margin-top: 20px;
+}
+
+#msg {
+    font-size: 1.5rem;
+    background-color: #081b31;
+    color: white;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}

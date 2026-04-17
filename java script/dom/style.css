@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+h1 {
+    background-color: green;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+    border-radius: 1px solid calc(rgb rgb(0, 0, 0));
+}
+
+.name {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
